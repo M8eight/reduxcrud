@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { todoSlice } from "./slices/todoSlice";
+import videoSlice from "./slices/videoSlice";
 
 export default configureStore({
     reducer: {
-        todos: todoSlice
+        video: videoSlice
     }
 });
