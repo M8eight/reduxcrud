@@ -22,7 +22,6 @@ function App() {
     e.preventDefault();
     const form = new FormData();
     form.append("message", e.target.message.value);
-    
     form.append("videoId", 1);
     dispatch(addReport(form));
   }
